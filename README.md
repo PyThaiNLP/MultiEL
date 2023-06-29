@@ -1,11 +1,12 @@
 # MultiEL
 Multilingual Entity Linking model by BELA model
 
-This project want to create easy-to-use Multilingual Entity Linking model by BELA model.
+This project want to create easy-to-use Multilingual Entity Linking model by BELA model for entity linking in 98 languages.
 
 **Origin Project**
 
 - Bi-encoder Entity Linking Architecture (BELA): [https://github.com/facebookresearch/BELA](https://github.com/facebookresearch/BELA)
+- Multilingual End to End Entity Linking: [https://arxiv.org/abs/2306.08896](https://arxiv.org/abs/2306.08896)
 
 
 ## Install
