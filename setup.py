@@ -9,7 +9,7 @@ with open("requirements.txt","r",encoding="utf-8-sig") as f:
 
 setup(
     name="MultiEL",
-    version="0.3",
+    version="0.4",
     description="Multilingual Entity Linking model by BELA model",
     long_description=readme,
     long_description_content_type="text/markdown",
@@ -26,6 +26,7 @@ setup(
             "conf/*/*/*",
             "data/*",
             "tests/data/*",
+            "*/*"
         ]
     },
     install_requires=requirements,

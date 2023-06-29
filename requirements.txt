@@ -11,3 +11,4 @@ h5py
 protobuf==3.20
 ujson
 huggingface_hub
+accelerate>=0.9.0
