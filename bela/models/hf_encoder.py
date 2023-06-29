@@ -9,6 +9,7 @@ import torch.nn as nn
 from transformers import AutoModel, AutoConfig
 
 
+
 class HFEncoder(nn.Module):
     def __init__(
         self,
@@ -16,7 +17,7 @@ class HFEncoder(nn.Module):
         projection_dim: Optional[int] = None,
     ):
         super().__init__()
-        self.transformer = AutoModel.from_pretrained(model_path)
+        self.transformer = AutoModel.from_pretrained(model_path, device_map="auto", torch_dtype="auto")
         self.embedding_dim = self.transformer.encoder.config.hidden_size
 
     def forward(self, input_ids, attention_mask=None):
