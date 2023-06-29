@@ -13,7 +13,7 @@ class BELA:
         self.device = device
         self.repo=repo
         self.checkpoint_name_path = f"model_{checkpoint_name}.ckpt"
-        if self.checkpoint_name not in ["aida", "e2e", "mewsli", "wiki"]:
+        if checkpoint_name not in ["aida", "e2e", "mewsli", "wiki"]:
             logger.warning(f"Your checkpoint name is not in the list, so we will load {checkpoint_name} as path in {repo}")
             self.checkpoint_name_path = checkpoint_name
         self.embeddings_path=hf_hub_download(repo_id=self.repo, filename="embeddings.pt")
