@@ -10,3 +10,4 @@ sentencepiece
 h5py
 protobuf==3.20
 ujson
+huggingface_hub
