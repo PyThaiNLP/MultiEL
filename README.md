@@ -21,3 +21,7 @@ bela_run = BELA(device="cuda")
 
 print(bela_run.process_batch(["นายกประยุทธ์ประกาศจัดการเลือกตั้ง"]))
 ```
+
+## License
+
+MIT license and the model is MIT license. ([BELA is MIT licensed](https://github.com/facebookresearch/BELA/blob/main/LICENSE))
