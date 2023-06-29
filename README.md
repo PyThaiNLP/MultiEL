@@ -44,7 +44,7 @@ BELA(
 
 - md_threshold: md threshold
 - el_threshold: Entity Linking threshold
-- checkpoint_name: checkpoint name (wiki, aida, mewsli, and e2e)
+- checkpoint_name: checkpoint name (wiki, aida, mewsli, and e2e) or your file name with extension
 - device: device
 - config_name: config name (in the BELA project)
 - repo: Huggingface Hub repo (Default [wannaphong/BELA](https://huggingface.co/wannaphong/BELA))
