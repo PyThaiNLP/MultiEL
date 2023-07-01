@@ -60,6 +60,10 @@ BELA(
 BELA.process_batch([str, str])
 ```
 
+## How to train the model?
+
+See more: [Multilingual End to End Entity Linking
+](https://github.com/facebookresearch/BELA)
 ## License
 
 MIT license and the model is MIT license. ([BELA is MIT licensed](https://github.com/facebookresearch/BELA/blob/main/LICENSE))
